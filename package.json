@@ -1,7 +1,7 @@
 {
-  "name": "@daybyday/npm-template",
-  "version": "1.0.3",
-  "description": "Template for npm package",
+  "name": "@daybyday/event",
+  "version": "1.0.0",
+  "description": "A es6 event class for publisher and subscriber pattern, message middleware, event bus.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
@@ -11,20 +11,22 @@
     "lint": "eslint src/**/*.js",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests --coverage",
     "publish": "publish.sh",
-    "git-push": "cd ../yx-env && git-push.sh npm-template"
+    "git-push": "cd ../yx-env && git-push.sh event"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gyx8899/npm-template.git"
+    "url": "https://github.com/gyx8899/event.git"
   },
   "keywords": [
-    "template",
-    "package",
+    "event",
+    "js",
+    "subscriber",
+    "publisher",
     "commonjs",
     "umd",
     "esm"
   ],
-  "author": "Kate Kuo",
+  "author": "Kyle Kuo",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.7.7",
@@ -94,16 +96,12 @@
       "\\.(css|scss)$": "identity-obj-proxy"
     },
     "testPathIgnorePatterns": [
-      "<rootDir>/tests",
+      "<rootDir>/node_modules",
       "<rootDir>/dist"
     ],
     "setupFilesAfterEnv": [
-      "<rootDir>/tests/jest/config.js"
-    ],
-    "transformIgnorePatterns": [
-      "<rootDir>/node_modules/(?!(@babel))"
-    ],
-    "passWithNoTests": true
+      "<rootDir>/jest.setup.js"
+    ]
   },
   "browserslist": {
     "browsers": [

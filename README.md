@@ -1,5 +1,6 @@
-# npm template
-NPM package project template
+# Event
+
+A es6 "event" class for publisher and subscriber pattern, message middleware, event bus.
 
 ## Publish steps
 
@@ -13,16 +14,19 @@ npm login
 ```
 
 - Publish in your git gui or click publish.sh bash file
+
 ```shell script
 npm publish
 ```
 
 ## Install
+
 ```cmd
-npm install @daybyday/xxx --save
+npm install @daybyday/event --save
 ```
 
 ## Importing
+
 ```jsx
-import xxx from '@daybyday/xxx';
+import Event from '@daybyday/event';
 ```

@@ -30,7 +30,7 @@ const renderHeaderItem = () =>
 	);
 
 const Header = () => (
-	<header className="site_container">
+	<header>
 		{/* <h1>
 			<a title={Npm.name} href={Npm.href} target="_blank">
 				<img className="img-logo" src={Logo} alt="NPM logo" />
