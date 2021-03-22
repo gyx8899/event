@@ -1,6 +1,6 @@
 {
   "name": "@daybyday/event",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "description": "A es6 event class for publisher and subscriber pattern, message middleware, event bus.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
