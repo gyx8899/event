@@ -1,3 +1,7 @@
+# [1.0.0](https://github.com/gyx8899/event/compare/v0.0.1-beta.0...v1.0.0) (2021-04-08)
+
+
+
 ## [0.0.1-beta.0](https://github.com/gyx8899/event/compare/v1.0.1-beta.0...v0.0.1-beta.0) (2021-03-22)
 
 
